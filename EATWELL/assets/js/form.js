@@ -3,7 +3,7 @@ let sortBtn = document.querySelector(".sortBtn");
 let searchInp = document.querySelector(".search");
 let tbody = document.querySelector("tbody");
 let allInput = document.querySelectorAll("input");
-const BASE_URL = ``;
+const BASE_URL = `http://localhost:8080/product`;
 let productData;
 let copyProductData;
 
@@ -70,9 +70,7 @@ searchInp.addEventListener("input", function (e) {
   );
   drawTable(filtered);
 });
-
 // sort
-
 sortBtn.addEventListener("click", function sortId() {
   let sorted;
   if (sortBtn.innerText === "Asc") {

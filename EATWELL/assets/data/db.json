@@ -1,26 +1,25 @@
 {
   "product": [
     {
-      "id": 1,
-      "imgUrl": "",
-      "price": "",
-      "title": "",
-      "des": ""
+      "id": "1",
+      "imgUrl": "./assets/img/offer_1.jpg",
+      "price": "$33.50",
+      "title": "Beef with Saugane",
+      "des": "Learn from yesterday, live for today, hope for tomorrow."
     },
     {
-      "id": 2,
-      "imgUrl": "",
-      "price": "",
-      "title": "",
-      "des": ""
+      "id": "2",
+      "imgUrl": "./assets/img/offer_2.jpg",
+      "price": "$12.50",
+      "title": "Egg with Garlic",
+      "des": "Learn from yesterday, live for today, hope for tomorrow."
     },
     {
-      "id": 3,
-      "imgUrl": "",
-      "price": "",
-      "title": "",
-      "des": ""
+      "id": "3",
+      "imgUrl": "./assets/img/offer_3.jpg",
+      "price": "$53.50",
+      "title": "Beff Ribs",
+      "des": "Learn from yesterday, live for today, hope for tomorrow."
     }
-    
   ]
 }
